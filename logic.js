@@ -109,12 +109,12 @@ function createMap(earthquakes) {
 }
 
 function getColor(d) {
-  return d > 5 ? '#F30' :
-  d > 4  ? '#F60' :
-  d > 3  ? '#F90' :
-  d > 2  ? '#FC0' :
-  d > 1   ? '#FF0' :
-            '#9F3';
+  return d > 5 ? '#02272a ' :
+  d > 4  ? '#044e54' :
+  d > 3  ? '#06757e' :
+  d > 2  ? '#09afbd' :
+  d > 1   ? '#0ac3d2' :
+            '#cef3f6';
 }
 
 function getRadius(value){
